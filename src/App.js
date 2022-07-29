@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+const App = () => {
+
+  const [Euro, EuroDoll] = useState(1);
+
+  const eurUsd = (e) => {
+    EuroDoll(e.target.value * 1.01)
+  }
+  const affichage = () => {
+    console.log(Euro);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <form action="">
+        <label htmlFor="">Nombre</label>
+        <input type="text" onChange={eurUsd} />
+        <button type='button' onClick={affichage}>Convertir</button>
+      </form>
+      <div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {Euro / 1.01} € vaut {Euro}$
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
+
+
   );
-}
+};
 
 export default App;
