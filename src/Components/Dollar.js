@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 const Dollar = () => {
-    const [Euro, EuroDoll] = useState(1);
+    const [Dollar, EuroDoll] = useState(1);
 
     const eurUsd = (e) => {
-        EuroDoll(e.target.value * 1.01)
+        EuroDoll(e.target.value * 0.98)
     }
     const affichage = () => {
-        console.log(Euro);
+        console.log(Dollar);
     }
     return (
         <div>
@@ -18,10 +18,11 @@ const Dollar = () => {
             </form>
             <div>
                 <p>
-                    {Euro / 1.01} € vaut {Euro}$
+                    {Dollar / 0.98} € vaut {Dollar}$
                 </p>
             </div>
         </div>
     );
 };
+
 export default Dollar;

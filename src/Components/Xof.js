@@ -4,7 +4,7 @@ const Xof = () => {
     const [Xof, xofDollar] = useState(1);
 
     const XofDollard = (e) => {
-        xofDollar(e.target.value * 0.98)
+        xofDollar(e.target.value * 0.0015)
     }
     const affichage = () => {
         console.log(Xof);
