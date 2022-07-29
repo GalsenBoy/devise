@@ -1,28 +1,28 @@
 import React, { useState } from 'react';
 
-const Euro = () => {
-    const [Dollar, EuroDoll] = useState(1);
+const Xof = () => {
+    const [Xof, xofDollar] = useState(1);
 
-    const eurUsd = (e) => {
-        EuroDoll(e.target.value * 0.98)
+    const XofDollard = (e) => {
+        xofDollar(e.target.value * 0.98)
     }
     const affichage = () => {
-        console.log(Dollar);
+        console.log(Xof);
     }
     return (
         <div>
             <form action="">
                 <label htmlFor="">Nombre</label>
-                <input type="text" onChange={eurUsd} />
+                <input type="text" onChange={XofDollard} />
                 <button type='button' onClick={affichage}>Convertir</button>
             </form>
             <div>
                 <p>
-                    {Dollar / 0.98} € vaut {Dollar}$
+                    {Xof / 0.0015} € vaut {Xof}$
                 </p>
             </div>
         </div>
     );
 };
 
-export default Euro;
+export default Xof;
