@@ -13,8 +13,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/euro" element={<Dollar />} />
-      <Route path="/dollar" element={<Euro />} />
+      <Route path="/dollar" element={<Dollar />} />
+      <Route path="/euro" element={<Euro />} />
       <Route path="/franc" element={<Xof />} />
     </Routes>
   </BrowserRouter>
