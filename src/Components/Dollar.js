@@ -27,12 +27,7 @@ const Dollar = () => {
             <form action="">
                 <label htmlFor="devise">Somme à Convertir</label>
                 <input type="text" onChange={eurUsd} />
-                <select name="devise" id="devise">
-                    <option value=""> Dollar canadien</option>
-                    <option value="">Euro</option>
-                    <option value="">Livre sterling</option>
-                </select>
-                <button type='button'> Convertir</button>
+
             </form>
             <div>
                 <p>

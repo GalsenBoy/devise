@@ -14,11 +14,10 @@ const Xof = () => {
             <form action="">
                 <label htmlFor="">Nombre</label>
                 <input type="text" onChange={XofDollard} />
-                <button type='button' onClick={affichage}>Convertir</button>
             </form>
             <div>
                 <p>
-                    {Xof / 0.0015} € vaut {Xof}$
+                    {Xof / 0.0015} F vaut {Xof}$
                 </p>
             </div>
         </div>

@@ -14,11 +14,10 @@ const Euro = () => {
             <form action="">
                 <label htmlFor="">Nombre</label>
                 <input type="text" onChange={eurUsd} />
-                <button type='button' onClick={affichage}>Convertir</button>
             </form>
             <div>
                 <p>
-                    {Euro / 1.01} € vaut {Euro}$
+                    {Euro / 1.01} $ vaut {Euro}€
                 </p>
             </div>
         </div>
