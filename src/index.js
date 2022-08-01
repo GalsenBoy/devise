@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
-import Dollar from './Components/Dollar';
+import Dollar from './Components/Dollar/Dollar';
 import Euro from './Components/Euro';
-import Xof from './Components/Xof';
+import Xof from './Components/Xof/Xof';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

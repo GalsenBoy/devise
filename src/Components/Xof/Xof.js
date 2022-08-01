@@ -17,7 +17,7 @@ const Xof = () => {
             </form>
             <div>
                 <p>
-                    {Xof / 0.0015} F vaut {Xof}$
+                    {Xof / 0.00155} F vaut {Xof}$
                 </p>
             </div>
         </div>
