@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devise/static/css/main.145fb2a3.css",
+    "main.js": "/devise/static/js/main.6c8ca830.js",
+    "index.html": "/devise/index.html",
+    "main.145fb2a3.css.map": "/devise/static/css/main.145fb2a3.css.map",
+    "main.6c8ca830.js.map": "/devise/static/js/main.6c8ca830.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.145fb2a3.css",
+    "static/js/main.6c8ca830.js"
+  ]
+}
